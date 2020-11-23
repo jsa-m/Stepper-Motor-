@@ -6,7 +6,7 @@ Stepper Motor Driver and an Arduino Uno.
 The stepper motor it’s a DC motor that can control the angular position of the rotor without closed feedback loop control. The one chosen it’s a hybrid stepper motor that has 4 phases and a stride angle of 5.625º/32 which provides an accuracy of 0.1758º per step.
 
 ## The ULN2003
-It’s an IC with seven Darlington pair that provides the necessary current to energize the inductors of the stepper, when the corresponding input of the Darlington has a high signal provided by the microcontroller. 
+It’s an IC with seven Darlington pairs that provides the necessary current to energize the inductors of the stepper, when the corresponding input of the Darlington has a high signal provided by the microcontroller. 
 
 ## Operation modes.
 ### Full Step:
